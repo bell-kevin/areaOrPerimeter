@@ -42,7 +42,8 @@ public class SolutionJUnitTest {
             {7, 7, 49},
             {8, 8, 64},
             {9, 9, 81},
-            {10, 10, 100}
+            {10, 10, 100},
+            {10, 11, 42}
         };
         return Arrays.asList(data);
     } // end method
