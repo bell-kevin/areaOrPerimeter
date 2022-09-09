@@ -32,11 +32,11 @@ public class SolutionJUnitTest {
     @Parameterized.Parameters
     public static Collection<Object[]> data() {
         Object[][] data = new Object[][]{
-            {16, 4, 40},
-            {32, 6, 76},
-            {64, 8, 144},
-            {64, 12, 152},
-            {128, 24, 304}
+            {4, 4, 16},
+            {10, 6, 32},
+            {8, 8, 64},
+            {20, 12, 64},
+            {40, 24, 128}
         };
         return Arrays.asList(data);
     } // end method
